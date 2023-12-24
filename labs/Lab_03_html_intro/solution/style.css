@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease; 
+}
+.slider img {
+  width: 100%;
+  height: auto;
+}
+
+.slider-container {
+  width: 300px; 
+  overflow: hidden;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  margin: 8px;
+  height: 100%;
+  flex-direction: column;
+}
+
+a:visited{
+  color: rgb(10, 7, 177);
+}
+
